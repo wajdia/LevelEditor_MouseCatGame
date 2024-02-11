@@ -1,6 +1,6 @@
 Level Editor: Mouse & Cat
 
-Written by: Wajdi Aweida ID: 300571650
+Written by: Wajdi Aweida
 
 --------------------
 General information:
@@ -115,7 +115,7 @@ given board dimensions, the main challenge is to balance the dimensions of
 the board and to keep track the window dimensions.
 
 The main aim here was: to show the whole board without any cut edges.
-I think it can be made better and more smarter than I made it (lack of time!),
+I think it can be made better and more smarter than I made it,
 but I think it's sufficient for user who understand the dimensions of his/her
 screen(9:16 or other)and choose ROWS & COLS accordingly.
 
@@ -138,16 +138,11 @@ Because of the dimensions of standard screens: 9:16
 when the number of the rows is big enough, the dimensions of the board may
 shrink unexpectedly, although the window got enough space to show a bit 
 better board.
-
-unfortunately, i didn't got enough time to fully fix this, Sorry!
  
 ------------
 Other notes:
 ------------
-1- In this Excercise I worked alone, partership was broken, and so
-I suffered from lack of time. (I used 2/3 "gift" days)
-
-2- I noticed that there're some warnings related to Row class.
+I noticed that there're some warnings related to Row class.
 (which manages dynamic memory)
 The compiler is worried about illegal array access.
 Board class is made to use Row wisely.
